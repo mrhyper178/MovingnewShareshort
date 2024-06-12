@@ -4,15 +4,15 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "8733404"))
   API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
 
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Movie_Links_Bot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
-
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_MoviesBot")
-  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001924724963"))
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Movie_Links_Bot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
+
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_MoviesBot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001924724963"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "ShareMoviesQLBot")
