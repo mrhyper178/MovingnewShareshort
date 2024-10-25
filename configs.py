@@ -10,8 +10,8 @@ class Config(object):
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002003476986")
 
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "9da9e04c687cef048d60fb4ed5dbefa59c388647")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "kingurl.in")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "6fcc7e96e35fd6eb066876ed0f98b0bc1dcfc388")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
   
